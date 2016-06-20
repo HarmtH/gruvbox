@@ -72,6 +72,8 @@ function! airline#themes#gruvbox#refresh()
     \ 'airline_tabmod':  s:I1
     \ }
 
+  let g:airline#themes#gruvbox#palette.terminal = g:airline#themes#gruvbox#palette.insert
+
 endfunction
 
 call airline#themes#gruvbox#refresh()
